@@ -1,12 +1,19 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
   background: #fff;
+
+}
+
+h1 {
   margin: 16px auto;
+  font-weight: bold;
 }
 
 .title {
@@ -19,9 +26,16 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  margin-top: 16px;
+  float: 0;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+}
+div.button-container {
+  text-align: center;
 }
