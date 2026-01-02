@@ -24,3 +24,35 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*my work below*/
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 52px;
+  padding-inline-start: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  display: flex;
+  margin:auto;
+}
+
+li {
+  display: flex;
+  text-align: center;
+  width: 200px;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
