@@ -85,4 +85,5 @@ div.cards {
   width: 200px;
   flex-wrap: wrap;
   flex: 0 0 auto;
+  padding: 8px;
 }
